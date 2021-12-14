@@ -60,3 +60,19 @@ body{
     cursor: pointer;
     color: #808080;
 }
+
+#MensagemErro{
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+#MensagemSucesso{
+    color: #00bb00;
+    background-color: #bbffbe;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}

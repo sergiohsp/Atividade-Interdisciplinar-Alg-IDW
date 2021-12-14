@@ -26,25 +26,31 @@
                     <h2>Olá, seja BEM-VINDO</h2>
                     <h3>Faça agora seu Cadastro:</h3>
                 </div>
+
+                <div id="MensagemErro"></div>
+                <div id="MensagemSucesso"></div>
+
                 <form>
                     <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label"><strong>E-mail</strong></label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu e-mail">
+                        <label for="exampleInputEmail1" class="form-label" id="labelNome" for="nome"><strong>Nome</strong></label>
+                        <input class="form-control" type="text" placeholder="Digite seu nome" aria-label="default input example" id="nome">
+                    </div>
+                    <div class="mb-3">
+                      <label for="email" class="form-label" id="labelEmail"><strong>E-mail</strong></label>
+                      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Digite seu e-mail">
                       <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com ninguém</div>
                     </div>
-                    <label for="exampleInputEmail1" class="form-label"><strong>Nome</strong></label>
-                    <input class="form-control" type="text" placeholder="Digite seu nome" aria-label="default input example">
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label"><strong>Senha</strong></label>
+                        <div class="mb-3">
+                        <label for="senha" class="form-label" id="labelSenha"><strong>Senha</strong></label>
                         <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
                         <i class="fa fa-eye" aria-hidden="true" id="olho1"></i>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label"><strong>Confirmar Senha</strong></label>
+                        <label for="ConfirmSenha" class="form-label" id="labelConfirmSenha"><strong>Confirmar Senha</strong></label>
                         <input type="password" class="form-control" id="ConfirmSenha" placeholder="Digite sua senha novamente">
                         <i class="fa fa-eye" aria-hidden="true" id="olho2"></i>
                     </div>
-                    <button type="submit" class="btn btn-outline-dark btn-lg">Realizar Cadastro</button>
+                    <button type="submit" class="btn btn-outline-dark btn-lg" onclick="cadastrar()">Realizar Cadastro</button>
                     <a class="nav-link" href="../HTML/Login.html"><button type="button" class="btn btn-outline-dark">Voltar para Login</button></a>
                 </form>    
             </div>
