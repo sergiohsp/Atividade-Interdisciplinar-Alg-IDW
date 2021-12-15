@@ -1,7 +1,7 @@
 @media only screen and (max-device-width: 900px) {
     .menu { width: 50%;
         background-color: #cccccc;
-        background: linear-gradient(to  bottom, rgba(0,0,0,0), #151515), url('../Imagens/Storr.jpg');
+        background: linear-gradient(to  bottom, rgba(0,0,0,0), #151515), url('../Imagens/Neuschwanstein.png');
         margin-bottom: 20%;
         margin-top: 20%;
         margin-right: 25%;
@@ -11,9 +11,10 @@
 }
 
 
+
 body{
     background-color: #cccccc;
-    background: linear-gradient(to  bottom, rgba(0,0,0,0), #151515), url('../Imagens/Storr.jpg');
+    background: linear-gradient(to  bottom, rgba(0,0,0,0), #151515), url('../Imagens/Neuschwanstein.png');
     width: 100%;
     margin-bottom: 10%;
     margin-top: 10%;
@@ -32,6 +33,7 @@ body{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
 
 
 #nomelogo{
@@ -54,6 +56,9 @@ body{
     border-style: solid;
 }
 
+#cadastrar{
+    padding-top: 5%;
+}
 
 .fa-eye{
     float: right;
@@ -64,14 +69,6 @@ body{
 #MensagemErro{
     color: #ff0000;
     background-color: #ffbbbb;
-    padding: 10px;
-    border-radius: 4px;
-    display: none;
-}
-
-#MensagemSucesso{
-    color: #00bb00;
-    background-color: #bbffbe;
     padding: 10px;
     border-radius: 4px;
     display: none;
