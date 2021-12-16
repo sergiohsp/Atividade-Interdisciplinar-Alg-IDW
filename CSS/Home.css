@@ -623,5 +623,58 @@ body    {
     }
 }
 
+.container-slide{
+    width: 40vw;
+    height: 40vh; 
+    justify-content: space-between;
+    margin: 0vh auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px black;
+    display: flex;
+    background-color: black;
+}
 
+.container-items{
+    position: absolute;
+    display: flex;
+    width: 40vw;
+    height: 40vh;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.item{
+    width: 40vw;
+    height: 40vh;
+    transition: all 1s;
+    
+}
+.item:first-child{
+    margin-left: -100%;
+}
+
+    
+
+.item img{
+    width: 40vw;
+    height: 40vh;
+    border-radius: 10px;
+}
+.action-button{
+    font: bold 50px sans-serif;
+    z-index: 1;
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #00000000;
+    user-select: none;
+}
+.action-button:hover{
+    color: white;
+    background-color: #00000060;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
 
