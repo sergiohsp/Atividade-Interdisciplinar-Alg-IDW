@@ -4,92 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/Home.css">
+    <link rel="stylesheet" href="../CSS/notcss.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <title>Hermit</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <nav class="navbar-container">
-
-                <div class="hermit-container">
-                    <img id="hermit" src="../Imagens/Hermit-white-goggles.png" width="60px" height="40px" alt="Logo-icon-image"> 
-                </div>
-
-                <div class="logo-container">
-                    <div class="title-box">
-                    <h1 class="title">Hermit</h1>
-                    <h2 class="subtitle">Inward journeys</h2>
-                    </div>
-
-                </div>
-
-
-                <div class="menu-container">
-                    
-                    <ul>
-
-                        <li>
-                            <i class="fas fa-scroll"></i><a href="#"></a>Mission</li>
-                        <li>
-                            <i class="far fa-eye"></i><a href="#"></a>Explore</li>
-                        <li>
-                            <i class="far fa-file-code"></i><a href="#"></a>Create</li>
-
-                    </ul>
-
-                </div>
-
-                <div class="profile-container">
-
-                    <img class="profile-picture" src="../Imagens/Cheech&Chong.jpeg" alt="user's profile picture">
-
-                    <div class="profile-text-container">
-
-                        <span class="profile-text">Profile</span>
-                        <i class="fas fa-caret-down"></i>
-
-                    </div>
-
-                    <div class="toggle">
-
-                        <div class="toggle-icon">
-                            <i class="fas fa-moon"></i>
-                            <i class="fas fa-sun"></i>
-                        </div>
-
-                        <div class="toggle-ball">
-
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-
-            </nav>
-
-        </nav>    
-
-    </header>
+    
 
     <aside>
         <div class="sidebar">
-
+            <div id="leftmenuslots">
+            <i class="fas fa-scroll left-menu-icon"></i>
+            <div class="menutext">
+                
+            </div>
+        </div> 
+        <div class="leftmenuslots">
+            <i class="far fa-code left-menu-icon"></i>
+            <div class="menutext">
+                
+            </div>
+        </div> 
+        <div class="leftmenuslots">
+            <a href="./profile.html"><i class="fas fa-book left-menu-icon"></i></a>
+            <div class="menutext">
+                
+            </div>
+        </div> 
+        <div class="leftmenuslots">
             <i class="fas fa-search  left-menu-icon "></i>
-            <i class="fas fa-home    left-menu-icon "></i>
-            <i class="fas fa-shopping-cart   left-menu-icon "></i>
+            <div class="menutext">
+                
+            </div>
+        </div> 
+        <div class="leftmenuslots">
+            <a href="Shoppingcart.html"><i class="fas fa-shopping-cart   left-menu-icon "></i></a> 
+            <div class="menutext">
+                
+            </div>
+        </div> <div class="leftmenuslots">
             <i class="far fa-question-circle     left-menu-icon "></i>
-
-
-
-        </div>
+            <div class="menutext">
+                
+            </div>
+        </div> 
     </aside>
 
     <article>
@@ -97,21 +59,64 @@
         <div class="container">
 
             <div class="content-container">
-                <div class="featured-content" style="background: linear-gradient(to  bottom, rgba(0,0,0,0), #151515), url('../Imagens/Tuscany.jpeg');">
+                <div class="featured-content">
                     
-
+                    <nav class="navbar">
+                        <nav class="navbar-container">
+            
+                            <div class="hermit-container">
+                                <img id="hermit" src="../Imagens/Hermit.png" width="60px" height="40px" alt="Logo-icon-image"> 
+                            </div>
+            
+                            <div class="logo-container">
+                                <div class="title-box">
+                                <h1 class="title">Hermit</h1>
+                                <h2 class="subtitle">Inward journeys</h2>
+                                </div>
+            
+                            </div>
+            
+        
+            
+                            <div class="profile-container">
+            
+                                <img class="profile-picture" src="../Imagens/Cheech&Chong.jpeg" alt="user's profile picture">
+            
+                                <div class="profile-text-container">
+            
+                                    <span class="profile-text">Profile</span>
+                                    <i class="fas fa-caret-down"></i>
+            
+                                </div>
+            
+                                <div class="toggle">
+            
+                                    <div class="toggle-icon">
+                                        <i class="fas fa-moon"></i>
+                                        <i class="fas fa-sun"></i>
+                                    </div>
+            
+                                    <div class="toggle-ball">
+            
+                                    </div>
+            
+                                </div>
+            
+            
+                            </div>
+            
+            
+                        </nav>
+            
+                    </nav>    
                     <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis maiores dolore incidunt non rerum aliquid rem reiciendis, odit vitae quos officiis magnam laboriosam labore error commodi id alias, necessitatibus a!</p>
                     <button class="featured-button">
                         Explore
                     </button>
-
-                    <div class="container-slide">
-                        <div class="action-button" id="previous"></div>
-                        <div class="container-items" id="container-items"></div>
-                        <div class="action-button" id="next"></div>
-                    </div>
+                </div>
 
                 </div>
+                <br>
 
                 <div class="journey-list-container">
 
@@ -199,7 +204,7 @@
                 </div>
 
 
-                <div class="featured-content" style="background: linear-gradient(to  bottom, rgba(0,0,0,0), #151515), url('../Imagens/forestpixel.png');">
+                <div class="featured-content-fiction">
                     
 
                     <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis maiores dolore incidunt non rerum aliquid rem reiciendis, odit vitae quos officiis magnam laboriosam labore error commodi id alias, necessitatibus a!</p>
@@ -247,8 +252,8 @@
 
                                 <img class="journey-list-item-img" src="../Imagens/yellow-brick-road.jpeg" alt="Yellow-Brick-Road-Wizard-Of-Oz">
                                 
-                                <span class="journey-list-item-title">Follow the Yellow Brick Road!</span>
-                                <p class="journey-list-item-desc">Don't know how to get to the castle? Stay on the yellow lane. As Scarecrow would say, it should be a no-brainer.
+                                <span class="journey-list-item-title">Yellow Road to Oz!</span>
+                                <p class="journey-list-item-desc">Don't know how to get to the castle? Stay on the yellow lane. As Scarecrow would say, it should be a no-brainer.</p>
                                 <button class="journey-list-item-button">
                                         Begin
                                 </button>
@@ -302,8 +307,7 @@
 
     </article>
 
-<script src="../Javascript/slideShow.js"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
 <script src="../Javascript/Home.js"></script>
-
 </body>
 </html>
