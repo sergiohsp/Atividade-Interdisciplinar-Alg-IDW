@@ -29,6 +29,7 @@
 	<table>
 	  <tr>
 	    <td align="center"><a href="https://github.com/filipedonatti/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/79519259?v=4" width="100px;" alt="Foto Filipe"/><br /><sub><b>Filipe Donatti</b></sub></a><br /><a href="https://github.com/filipedonatti/" title="Filipe Donatti">😎</a></td>
+      <td align="center"><a href="https://github.com/guilevecke"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/90583327?v=4" width="100px;" alt="Foto Guilherme"/><br /><sub><b>Guilherme Levecke</b></sub></a><br /><a href="https://github.com/guilevecke" title="Guilherme Levecke">😎</a></td>
 	    <td align="center"><a href="https://github.com/sergiohsp"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/90715321?v=4" width="100px;" alt="Foto Sérgio"/><br /><sub><b>Sérgio Preiss</b></sub></a><br /><a href="https://github.com/sergiohsp" title="Sérgio Henrique">😎</a></td>
 	  </tr>
 	</table>
