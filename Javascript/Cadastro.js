@@ -124,4 +124,3 @@ eye.addEventListener('click', ()=>{
         inputSenha.setAttribute('type', 'password')
     }
 })
-
