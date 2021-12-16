@@ -42,7 +42,7 @@ function entrar(){
     })
     
     if(email.value == usuarioValid.email && senha.value == usuarioValid.senha){
-        window.location.href = '..HTML/Home.html'
+        window.location.href = '../HTML/Home.html'
 
         var token = Math.random().toString(16).substring(2) + Math.random().toString(16).substring(2)
         localStorage.setItem('ChaveLogin', token)

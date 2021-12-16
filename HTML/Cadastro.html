@@ -30,29 +30,28 @@
                 <div id="MensagemErro"></div>
                 <div id="MensagemSucesso"></div>
 
-                <form>
+
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label" id="labelNome" for="nome"><strong>Nome</strong></label>
+                    <input class="form-control" type="text" placeholder="Digite seu nome" aria-label="default input example" id="nome">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label" id="labelEmail"><strong>E-mail</strong></label>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Digite seu e-mail">
+                  <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com ninguém</div>
+                </div>
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label" id="labelNome" for="nome"><strong>Nome</strong></label>
-                        <input class="form-control" type="text" placeholder="Digite seu nome" aria-label="default input example" id="nome">
-                    </div>
-                    <div class="mb-3">
-                      <label for="email" class="form-label" id="labelEmail"><strong>E-mail</strong></label>
-                      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Digite seu e-mail">
-                      <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com ninguém</div>
-                    </div>
-                        <div class="mb-3">
-                        <label for="senha" class="form-label" id="labelSenha"><strong>Senha</strong></label>
-                        <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
-                        <i class="fa fa-eye" aria-hidden="true" id="olho1"></i>
-                    </div>
-                    <div class="mb-3">
-                        <label for="ConfirmSenha" class="form-label" id="labelConfirmSenha"><strong>Confirmar Senha</strong></label>
-                        <input type="password" class="form-control" id="ConfirmSenha" placeholder="Digite sua senha novamente">
-                        <i class="fa fa-eye" aria-hidden="true" id="olho2"></i>
-                    </div>
-                    <button type="submit" class="btn btn-outline-dark btn-lg" onclick="cadastrar()">Realizar Cadastro</button>
-                    <a class="nav-link" href="../HTML/Login.html"><button type="button" class="btn btn-outline-dark">Voltar para Login</button></a>
-                </form>    
+                    <label for="senha" class="form-label" id="labelSenha"><strong>Senha</strong></label>
+                    <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+                    <i class="fa fa-eye" aria-hidden="true" id="olho1"></i>
+                </div>
+                <div class="mb-3">                        <label for="ConfirmSenha" class="form-label" id="labelConfirmSenha"><strong>Confirmar Senha</strong></label>
+                    <input type="password" class="form-control" id="ConfirmSenha" placeholder="Digite sua senha novamente">
+                    <i class="fa fa-eye" aria-hidden="true" id="olho2"></i>
+                </div>
+                <button type="submit" class="btn btn-outline-dark btn-lg" onclick="cadastrar()">Realizar Cadastro</button>
+                <a class="nav-link" href="../HTML/Login.html"><button type="button" class="btn btn-outline-dark">Voltar para Login</button></a>
+ 
             </div>
             <div class="col-md-4"></div>
         </div>
