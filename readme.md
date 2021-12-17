@@ -67,7 +67,7 @@
 ## ✅ Status do Projeto:
 
 <h4> 
-	🚧  Em construção... Finalizando os últimos detalhes 🚧
+	🆗  FINALIZADO  🆗
 </h4>
 
 ##
@@ -79,6 +79,12 @@
 -->[X] Login
 <br>
 -->[X] Cadastro
+<br>
+-->[X] Profile
+<br>
+-->[X] Carrinho de Compras
+<br>
+-->[X] Desenvolvedores
 <br>
 
 ## ⌨ Como Rodar esse Projeto?🖥
